@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace _111153008_Homework_3_2
+    //我真的是自己做的 我對天發誓
 {
     /// <summary>
     /// MainWindow.xaml 的互動邏輯
