@@ -1,0 +1,27 @@
+﻿<Window x:Class="_111153008_Homework_3_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_111153008_Homework_3_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="毫克" HorizontalAlignment="Left" Margin="53,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="公克" HorizontalAlignment="Left" Margin="183,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="公斤" HorizontalAlignment="Left" Margin="300,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="公噸" HorizontalAlignment="Left" Margin="434,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="盎司" HorizontalAlignment="Left" Margin="553,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="磅" HorizontalAlignment="Left" Margin="700,108,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMG" TextWrapping="Wrap" Margin="28,155,682,233" KeyUp="txtMG_KeyUp"/>
+        <TextBox x:Name="txtG" TextWrapping="Wrap" Margin="158,155,552,233" KeyUp="txtG_KeyUp"/>
+        <TextBox x:Name="txtKG" TextWrapping="Wrap" Margin="280,155,430,233" KeyUp="txtKG_KeyUp"/>
+        <TextBox x:Name="txtMT" TextWrapping="Wrap" Margin="409,155,301,233" KeyUp="txtMT_KeyUp"/>
+        <TextBox x:Name="txtOZ" TextWrapping="Wrap" Margin="528,155,182,234" KeyUp="txtOZ_KeyUp"/>
+        <TextBox x:Name="txtLB" TextWrapping="Wrap" Margin="675,155,35,233" KeyUp="txtLB_KeyUp_1"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="161,259,0,0" VerticalAlignment="Top" Width="412"/>
+        <TextBox x:Name="txtinfo" TextWrapping="Wrap"  Margin="158,289,269,100" />
+        <Button Content="清除鍵" HorizontalAlignment="Left" Margin="630,281,0,0" VerticalAlignment="Top" Height="64" Width="101" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
